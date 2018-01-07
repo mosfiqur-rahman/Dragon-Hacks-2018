@@ -1,0 +1,161 @@
+  -------------------------------------------------------------------
+                           DigitalPersona
+
+                         U.are.U SDK for Linux
+                            Version 2.2.3
+                        
+                            Readme File
+                           
+                           April 30 2014
+                                
+  --------------------------------------------------------------------
+           (c) 2014 DigitalPersona, Inc. All Rights Reserved. 
+
+
+This document provides late-breaking or other information that supplements
+the DigitalPersona U.are.U SDK for Linux documentation.
+
+
+-------------------------
+How to Use This Document
+-------------------------
+
+This document can be viewed with a text editor like "vi" running under Linux. 
+
+
+---------
+CONTENTS
+---------
+
+1.   INSTALLATION
+
+2.   COMPATIBILITY
+
+3.   SYSTEM REQUIREMENTS
+
+4.   NEW FEATURE, WSQ COMPRESSION
+
+5.   RELEASE NOTES
+
+6.   KNOWN ISSUES
+     
+7.   SUPPORT AND FEEDBACK
+
+
+----------------
+1. INSTALLATION
+----------------
+Note: Installation on ARM systems should be done trough extracting ARM tarballs from the /opt/DigitalPersona/redist directory as described in the "Installing on the Target Hardware" section below.
+
+You must have root privileges to install this product.
+Linux x86 and x64 SDK installation
+
+There are two steps to the installation:
+1. Installing on the development system
+2. Installing on the device (the target hardware)
+These steps are described below.
+
+Installing on the Development System
+
+1- Download or copy from CD the file DP-UareU-SDK-2.2.3-1.20140429_1533.tar somewhere under your /home/user directory.
+2- Extract or uncompress the DP-UareU-SDK-2.2.3-1.20140429_1533.tar file contents into a temporary directory.
+3- Run install as root (sudo ./install) from the created temporary directory and the product installs into the system /opt directory. The user also has the option to install the DigitialPersona kernel module and load it automatically for development with the 4500 readers. The 5100 reader does not require installation of the DigitialPersona kernel module.  
+
+Installing on the Target Hardware
+
+1- Copy the appropriate tarballs from /opt/DigitalPersona/redist to the target x86, x64, or ARM device and unpack them.
+2- Copy the /opt/DigitalPersona/UareUSDK/Linux/Samples contents to the target x86, x64, or ARM device. 
+3- Export the LD_LIBRARY_PATH to the /opt/DigitalPersona/UareUSDK/Linux/lib directory.
+4- Plug in the reader. 
+5- Execute the samples. 
+
+
+-----------------
+2. COMPATIBILITY
+-----------------
+
+- DigitalPersona U.are.U SDK for Linux contains the 6.0.1 recognition engine, 2.0.0.8 and 3.0.64 driver libraries, and is compatible with DigitalPersona fingerprint readers 4500 Rev. 103, U.are.U 5100, U.are.U 5200 and U.are.U 5300
+
+
+-----------------------
+3. SYSTEM REQUIREMENTS
+-----------------------
+
+Intel based.
+- Pentium-class processor
+- 128 MB RAM or the minimum amount required to run your Linux operating system
+- GNU Compiler Collection (GCC), G++, GNU make and kernel-devel.
+- OpenJDK and/or Oracle JDK 6 or 7.
+
+ARM based.
+ARMv4T EABI with CPU from 400MHz and at least 16Mb of available RAM.
+
+Notes: 
+- The GCC version used to build the kernel on the target machine and the GCC
+  version used to build the kernel module must match.
+- On some distributions the kernel-devel package is insufficient since the kernel-source 
+  package is required as well.
+
+
+--------------------------------
+4. NEW FEATURE, WSQ COMPRESSION
+--------------------------------
+
+- DPFJ compression API.
+
+DPFJ compression API is declared in dpfj_compression.h. Currently compression API supports two algorithms
+of WSQ compression. NIST WSQ algorithm (http://www.nist.gov/itl/iad/ig/nigos.cfm) and Aware WSQ1000 SDK.
+NIST algorithm is built in into the DPFJ library for Linux x86 and Linux x64. DPFJ library for Linux on ARM does not have implementation of NIST algorithm. Aware WSQ1000 SDK is used if it's available on the system running DPFJ compression. Aware WSQ1000 SDK is not part of DigitalPersona U.are.U SDK and must be purchased separately.
+
+- To compress image:
+
+	1. Create compression context calling dpfj_start_compression().
+	2. Set compression parameters using dpfj_set_wsq_bitrate() or dpfj_set_wsq_size().
+	3. Compress image using dpfj_compress_fid() for images in ANSI/ISO formats, or dpfj_compress_raw() for raw images.
+	4. Acquire the resulting size of the compressed data by calling dpfp_get_processed_size().
+	5. Receive compressed image by calling dpfj_get_processed_data().
+	6. Destroy compression context and release memory by calling dpfj_finish_compression().
+
+- To expand compressed image:
+
+	1. Create compression context calling dpfj_start_compression().
+	2. Expand image using dpfj_expand_fid() for images in ANSI/ISO formats, or dpfj_expand_raw() for raw images.
+	4. Acquire the resulting size of the expanded data by calling dpfp_get_processed_size().
+	5. Receive expanded image by calling dpfj_get_processed_data().
+	6. Destroy compression context and release memory by calling dpfj_finish_compression().
+
+
+-----------------
+5. RELEASE NOTES
+-----------------
+
+- Upgrade are not supported. It is recommended you uninstall earlier versions of the Linux SDK before installing the U.are.U SDK for Linux. Failure to uninstall may result in sample applications being unable to detect the U.are.U 5100 reader or other problems.
+
+- Limitations related to fingerprint capture functionality:
+  - U.are.U 5100 reader is supported on the Linux kernels from 2.6.32 through 3.2 
+  - U.are.U 4500 reader is supported on the Linux kernels 2.6.9 through 3.2
+   
+- RTE installation is included in this release
+
+
+----------------
+6. KNOWN ISSUES
+----------------
+
+- Aware WSQ1000 SDK on SELinux:
+  On systems where SELinux policy is enforced, libwsq1000.so from Aware WSQ1000 SDK cannot be loaded, because it requires the executable stack. A work-around is to disable SELinux or to remove the executable stack requirement from the libwsq1000.so.
+
+- Error may occur during Capture when USB bus re-enumerates device. Simply reselect the reader and continue Capture.
+
+
+------------------------
+7. SUPPORT AND FEEDBACK
+------------------------
+
+We provide fee-based support packages and support for registered users at our web site http://www.digitalpersona.com. 
+
+Free technical support is available through the DigitalPersona Developer Connection forums at www.digitalpersona.com/webforums.
+
+If you have suggestions for future product releases or require technical support for the SDK, send email to techsupport@digitalpersona.com. In the subject line, type "U.are.U SDK for Linux 2.2.3 support."
+
+You can also purchase a Developer Support package at our web store: https://store2.esellerate.net/store/checkout/CustomLayout.aspx?s=STR1045285899&pc=&page=OnePageCatalog.htm

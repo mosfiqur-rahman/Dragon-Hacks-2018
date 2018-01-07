@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Digital-Persona">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/jmf.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javacpp.jar!/" />
+      <root url="jar://$PROJECT_DIR$/webcam-capture-0.3.10-RC4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jvideo-v0.01stable.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javacv.jar!/" />
+      <root url="jar://$PROJECT_DIR$/slf4j-api-1.7.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/mysql-connector-java-5.1.5-bin.jar!/" />
+      <root url="jar://$PROJECT_DIR$/bridj-0.7-20130703.103049-42.jar!/" />
+      <root url="jar://$PROJECT_DIR$/javacv-windows-x86_64.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

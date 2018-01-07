@@ -1,0 +1,6 @@
+# Make the event device node associated with the DP readers accessible by everyone
+DRIVERS=="usb", ATTRS{idVendor}=="05ba", ATTRS{idProduct}=="000[bcde]", KERNEL=="event*", MODE="0666"
+DRIVERS=="usb", ATTRS{idVendor}=="05ba", ATTRS{idProduct}=="000[bcde]", KERNEL=="video*", MODE="0666"
+
+# Run the DP control helper for DP UVC devices.
+DRIVERS=="usb", ATTRS{idVendor}=="05ba", ATTRS{idProduct}=="000[bcde]", KERNEL=="video*", RUN+="/opt/DigitalPersona/urusdk-linux/Linux/bin/dpuvccfg /dev/$name"

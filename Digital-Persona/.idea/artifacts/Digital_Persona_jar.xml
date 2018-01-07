@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Digital-Persona:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Digital_Persona_jar</output-path>
+    <root id="archive" name="Digital-Persona.jar">
+      <element id="module-output" name="Digital-Persona" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jmf.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javacpp.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/webcam-capture-0.3.10-RC4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/jvideo-v0.01stable.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javacv.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/slf4j-api-1.7.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/mysql-connector-java-5.1.5-bin.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/bridj-0.7-20130703.103049-42.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/javacv-windows-x86_64.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

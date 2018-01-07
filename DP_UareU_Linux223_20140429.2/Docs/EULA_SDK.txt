@@ -1,0 +1,405 @@
+END USER LICENSE AGREEMENT FOR DIGITALPERSONA(r) SOFTWARE DEVELOPMENT 
+KIT (SDK) PRODUCTS 
+
+IMPORTANT - READ CAREFULLY: This DIGITALPERSONA END USER LICENSE 
+AGREEMENT (the "EULA") is a legal agreement between you either as an 
+individual or as an authorized representative of a business entity 
+(hereafter referred to as "You" and/or "Your") and DigitalPersona, Inc. 
+("DigitalPersona"). DigitalPersona is willing to license to You the 
+DigitalPersona software product accompanying this EULA, which may 
+include, without limitation, fingerprint recognition software, 
+fingerprint reader driver software, and any runtime binaries (including 
+but not limited to plug-ins) that are compiled for distribution (the 
+"Runtime Environment"), library files, header files, supplemental 
+software, updates and upgrades, associated firmware, media, manuals, 
+user guides and/or other documentation provided by DigitalPersona or 
+made available for download, whether tangible or intangible 
+(collectively, the "Software Product"). By installing, downloading, 
+copying, or otherwise using the Software Product, You agree to be bound 
+by the terms of this EULA. If You do not agree to the terms of this 
+EULA, do not install, copy or use the Software Product; please return 
+the original Software Product and all copies thereof (if any) to Your 
+place of purchase to obtain a refund, or if the Software Product was 
+downloaded, please remove and delete the original and all copies of the 
+Software Product from the computer(s) on which it was installed. 
+
+1. License Grant 
+
+1.1 One Touch ID. Subject to the terms and conditions of this EULA, and 
+subject to DigitalPersona's underlying Intellectual Property Rights (as 
+defined below) in and to the Software Product: If You license One Touch 
+ID, DigitalPersona grants to You a limited, non-transferable, and 
+non-exclusive right to install and use the Software Product at Your 
+premises; provided that Your intranet or other storage device is secured 
+in such a manner as to prohibit access of the Software Product by 
+unauthorized users, with the One Touch ID SDK, You may copy the Software 
+Product to the hard disk of one (1) computer system only, or use the 
+Software Product on Your network, provided that the number of developers 
+in Your organization having access to or using the Software Product will 
+not exceed one (1) or the number of valid licenses acquired by You which 
+are still in force; and You may use, copy and redistribute to Your end 
+users, in object code form, the files contained in the "Redist" folder 
+and incorporate these files into or redistribute these files with the 
+Licensee Application; 
+
+1.2 U.are.U SDK for Windows, U.are.U SDK for Linux, U.are.U SDK for 
+Windows CE, or U.are.U SDK for Android. If you license the U.are.U SDK 
+for Windows, U.are.U SDK for Linux, U.are.U SDK for Windows CE, or 
+U.are.U SDK for Android, DigitalPersona grants to You a limited, 
+non-transferable, and non-exclusive right to install and use the 
+Software Product at Your premises under the terms and conditions of this 
+EULA. Provided that Your intranet or other storage device is secured in 
+such a manner as to prohibit access of the Software Product by 
+unauthorized users, You may copy the Software Product to the hard disk 
+of a computer system, or use the Software Product on Your network. 
+
+1.3 One Touch ID, U.are.U SDK for Windows, U.are.U SDK for Linux, 
+U.are.U SDK for Windows CE, or U.are.U SDK for Android. Subject to the 
+terms and conditions of this EULA, and subject to DigitalPersona's 
+underlying Intellectual Property Rights (as defined below) in and to the 
+Software Product: (a) You may use the Software Product to design, 
+develop, and test a software application product (the "Licensee 
+Application"), for use with the corresponding DigitalPersona fingerprint 
+reader or module on a Workstation (defined below), or such other 
+hardware/software package approved by DigitalPersona for use with the 
+DigitalPersona SDK products. For purposes of this EULA, a Licensee 
+Application specifically excludes any type of software development tool 
+designed, developed, licensed and/or distributed by You. You represent 
+that each and every biometric fingerprint reader, fingerprint 
+recognition algorithm and other software required by the Licensee 
+Application for fingerprint recognition will be a DigitalPersona product 
+acquired from DigitalPersona or its authorized distributors. For 
+purposes of this EULA, a Workstation means a computer, terminal or other 
+digital electronic device that provides fingerprint authentication 
+functionality. (b) You may (i) modify the sample source code located in 
+the Software Product's "Samples" folder (the "Sample Code") and create 
+derivatives thereof (the "Sample Derivatives"), and (ii) reproduce and 
+distribute the Sample Derivatives in object code form only, and only as 
+incorporated into the Licensee Application. (c) You may reproduce and 
+distribute the Runtime Environment in object code form only as 
+incorporated into the Licensee Application; provided, however, that You 
+reproduce and include the copyright notice that appears in the Sample 
+Code and Runtime Environment as provided by DigitalPersona and that You 
+distribute the Licensee Application incorporating the Sample Derivatives 
+and/or Runtime Environment pursuant to terms no less restrictive than 
+those set forth in this Agreement. 
+
+1.4 Special Requirements for the U.are.U SDK for Linux or U.are.U SDK 
+for Android. If You license the U.are.U SDK for Linux (including any 
+applicable plug-ins) or the U.are.U SDK for Android, You acknowledge 
+that the use of these SDKs will require the use of certain third party 
+software listed in the accompanying documentation. Unless otherwise 
+specifically agreed by DigitalPersona in writing signed by an officer of 
+DigitalPersona, You shall be solely responsible with respect to 
+obtaining the necessary licenses and consents and bearing the costs to 
+license all such third party software. 
+
+2. License Restrictions. You acknowledge and represent that the Licensee 
+Application shall not be used, under any circumstances, with fingerprint 
+recognition hardware and software other than a DigitalPersona product. 
+Except as otherwise permitted herein, You: (i) may not, or cause or 
+permit a third party to reproduce, distribute, redistribute, sublicense, 
+loan, rent or lease, all or any portion of the Software Product, 
+including but not limited to, the bundling of the Software Product or 
+portions thereof with any fingerprint recognition product not authorized 
+by DigitalPersona; (ii) except as otherwise provided herein, shall not 
+reverse engineer, decompile, disassemble, or attempt to access or 
+discover the underlying source code of the Software Product or portions 
+thereof; (iii) may not utilize the Software Product to create or develop 
+(or cause or permit third parties to create or develop), any products 
+which compete with DigitalPersona products; (iv) may not link the 
+Software Product to any third party code that is licensed under any 
+version of the GNU General Public License, the Affero General Public 
+License or the GNU Lesser General Public License in such a manner as to 
+require the Software Product to be distributed under any version of the 
+GNU General Public License, Affero General Public License or the GNU 
+Lesser General Public License, or develop any Licensee Application that 
+is required to be distributed under the terms of any version of the GNU 
+General Public License or Affero General Public License; (v) are 
+prohibited by U.S. export regulations from using any DigitalPersona 
+products to develop cryptographic or encryption capabilities or using 
+any DigitalPersona products to develop items controlled for encryption 
+capability or controlled for national security reasons. You shall 
+promptly notify DigitalPersona if any of the foregoing restrictions have 
+been breached and You shall defend, indemnify and hold harmless 
+DigitalPersona from and against any and all costs, expenses, damages and 
+claims arising out of such violation. 
+
+3. Ownership of the Software Product. The Software Product (including 
+any updates, upgrades, modifications and revisions) is protected by 
+intellectual property and copyright laws and treaties worldwide, and may 
+contain trade secrets of DigitalPersona or its suppliers, who have and 
+maintain exclusive right, title and interest in and to the Software 
+Product and the Sample Derivatives, and reserve and retain all rights 
+not expressly granted to You under this EULA. You agree not to remove or 
+obscure any copyright, trademark or patent notices that appear on any of 
+the Software Product as delivered to you. Subject to DigitalPersona's 
+underlying rights in and to the Software Product and portions thereof, 
+You shall own all Intellectual Property Rights (as defined below) in and 
+to the Licensee Application. 
+
+4. Covenant to Facilitate Development. You acknowledge and agree not to 
+enforce or assert any intellectual property rights (including, without 
+limitation, all rights now held or hereafter created or acquired, 
+whether arising under the laws of the United States or any other 
+country, for any patents, copyrights or trade secrets (collectively, the 
+"Intellectual Property Rights")), in any Licensee Application or 
+derivatives thereof in a manner which in any way limits the development, 
+use and distribution by DigitalPersona or its licensees of the Software 
+Product. 
+
+5. Support. DigitalPersona may offer support services related to the 
+Software Product ("Support Services"). Receipt of Support Services is 
+contingent upon Your agreement to then-current DigitalPersona support 
+terms and conditions available at www.digitalpersona.com/support. Any 
+supplemental Software Product code provided to You as a part of Support 
+Services shall be deemed part of the Software Product and subject to the 
+terms of this EULA. With respect to any technical information You 
+provide while using Support Services, DigitalPersona may use such 
+information for its business purposes, including without limitation, 
+general product support and development. DigitalPersona will not use 
+such technical information in a form or manner that personally 
+identifies You. 
+
+6. Limited Warranty; Disclaimer of Warranties. If DigitalPersona 
+provided the Software Product to You on tangible media, DigitalPersona 
+represents that such media in the form originally received by You and 
+under normal use, will be free from defects in material and workmanship, 
+for a period of ninety (90) days from the ship date of original Software 
+Product You acquired as shown on Your receipt or similar proof of 
+payment (the "Warranty Period"). EXCEPT FOR THE LIMITED WARRANTIES 
+ABOVE, DIGITALPERSONA AND ITS DISTRIBUTORS OR RESELLERS MAKE NO OTHER 
+EXPRESS OR IMPLIED WARRANTIES, AND TO THE MAXIMUM EXTENT PERMITTED BY 
+LAW, SPECIFICALLY DISCLAIM ALL WARRANTIES OF EVERY TYPE, INCLUDING, 
+WITHOUT LIMITATION, WARRANTIES OF QUALITY, MERCHANTABILITY AND FITNESS 
+FOR A PARTICULAR PURPOSE, SYSTEM INTEGRATION, SUPPORT SERVICES, AND 
+NON-INFRINGEMENT OF THIRD PARTY RIGHTS WITH REGARDS TO THE SOFTWARE 
+PRODUCT. IF SUCH DISCLAIMER OF ANY IMPLIED WARRANTY IS NOT PERMITTED BY 
+LAW, THE DURATION OF SAID IMPLIED WARRANTIES IS LIMITED TO NINETY (90) 
+DAYS FROM THE DATE OF PURCHASE. 
+
+If an upgrade or update to the Software Product is delivered with a new 
+warranty period, then the terms of such new warranty period will apply 
+only to the upgraded Software Product, and not the original Software 
+Product. Any replacement Software Product will be warranted for the 
+remainder of the original Software Warranty Period or thirty (30) days, 
+whichever is longer. 
+
+DigitalPersona's sole obligation and Your exclusive remedy under the 
+limited warranties above shall be, at DigitalPersona's option, either a 
+refund of the price paid (if any), or replacement of the Software 
+Product that does not meet the DigitalPersona limited warranties, and 
+that is returned to DigitalPersona with a copy of Your receipt or other 
+such acceptable proof of purchase. 
+
+7. Hazardous Use. The Software Product, DigitalPersona fingerprint 
+reader or module, or any DigitalPersona Software are not designed, made, 
+or intended for use in an application, or in development of Licensee 
+Application, where failure, malfunction or inaccuracy of any of such 
+products may cause death or serious bodily injury, including, without 
+limitation, use in medical equipment, nuclear facilities, aircraft 
+operation, air traffic control, or life support. Any such use is 
+prohibited. Customer agrees that neither DigitalPersona nor its 
+suppliers, distributors or resellers will be liable, in whole or in 
+part, for any claims, losses, costs or damages arising out of or in 
+connection with the use and performance of the Software Product in such 
+applications. 
+
+8. Indemnification. You shall defend, indemnify and hold harmless 
+DigitalPersona against any claims, actions, losses, damages, costs and 
+expenses (including attorney fees) arising out of and/or action brought 
+against DigitalPersona as a result of: (i) a claim based upon an actual 
+or alleged infringement of an intellectual property right of a third 
+party arising from or related to the Licensee Application; (ii) any 
+modification and/or enhancement to the Sample Code made by or for You; 
+(iii) any distribution of all or a portion of the Software Product in 
+breach of the limited license granted to You hereunder; and (iv) Your 
+breach of the restrictions set forth in Section 2 and Section 7; 
+provided that DigitalPersona reasonably cooperates with You (at Your 
+expense) in the defense or settlement of such action or claim. You shall 
+have control of the defense and all settlement negotiations, provided 
+that You may not enter into a settlement providing for any restriction 
+on DigitalPersona or the DigitalPersona technology without 
+DigitalPersona's prior written consent, and provided further that 
+DigitalPersona shall have the right to be represented by its own 
+attorney at DigitalPersona's expense. 
+
+9. LIMITATION OF LIABILITY; EXCLUSION OF DAMAGES. TO THE MAXIMUM EXTENT 
+PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL DIGITALPERSONA AND ITS 
+EMPLOYEES, CONTRACTORS, SUPPLIERS, LICENSORS, DISTRIBUTORS OR RESELLERS 
+BE LIABLE TO YOU OR ANY THIRD PARTY FOR ANY SPECIAL, INCIDENTAL, 
+INDIRECT, PUNITIVE OR CONSEQUENTIAL DAMAGES WHATSOEVER, WHETHER IN TORT, 
+PRODUCT LIABILITY AND/OR NEGLIGENCE (INCLUDING, WITHOUT LIMITATION, 
+DAMAGES FOR LOSS OF BUSINESS PROFITS, GOODWILL, BUSINESS INTERRUPTION, 
+LOSS OF BUSINESS INFORMATION, LOSS OF DATA, PRIVACY OR CONFIDENTIALITY, 
+BREACH OF SECURITY SYSTEMS OR ANY OTHER PECUNIARY LOSS) ARISING OUT OF 
+OR RELATING IN ANY WAY TO, THE USE OF, OR INABILITY TO USE THE SOFTWARE 
+PRODUCT, EVEN IF DIGITALPERSONA AND ITS EMPLOYEES, CONTRACTORS, 
+SUPPLIERS, LICENSORS, DISTRIBUTORS OR RESELLERS HAVE BEEN ADVISED OF THE 
+POSSIBLILITY OF SUCH DAMAGES OR LOSSES. EXCEPT FOR THE LIMITED 
+WARRANTIES SET FORTH ABOVE, THE SOFTWARE PRODUCT IS SUPPLIED "AS IS", 
+AND THE ENTIRE RISK OF ACCURACY AND SATISFACTORY PERFORMANCE IS WITH 
+YOU. DIGITALPERSONA AND ITS DISTRIBUTORS OR RESELLERS DO NOT GUARANTEE 
+THAT THE SOFTWARE PRODUCT WILL MEET YOUR REQUIREMENTS OR ALL 
+REQUIREMENTS OF THE SOFTWARE OR HARDWARE WITH WHICH THEY INTERACT. IN 
+ANY CASE, DIGITALPERSONA'S ENTIRE LIABILITY UNDER ANY PROVISION OF THIS 
+EULA SHALL BE LIMITED TO THE AMOUNT ACTUALLY PAID BY YOU FOR THIS 
+SOFTWARE PRODUCT OR US$100.00, WHICHEVER IS GREATER. 
+
+10. Termination of License. You may terminate this EULA at any time, 
+upon written notice thereof to DigitalPersona. THIS EULA WILL TERMINATE 
+AUTOMATICALLY IF YOU BREACH ANY LICENSE RESTRICTIONS, EXPORT 
+RESTRICTIONS, OR MATERIAL PROVISION OF THIS EULA. Upon termination, all 
+rights to use the Software Product will cease and You shall (i) promptly 
+destroy the original and all copies of the Software Product in Your 
+possession or under its control, and certify in writing to 
+DigitalPersona of such destruction, and (ii) cease distribution of the 
+Sample Derivatives and/or Runtime Environment as incorporated in the 
+Licensee Application. 
+
+11. GENERAL TERMS 11.1 No Third Party Beneficiaries. No provision of 
+this EULA is intended, nor will it be interpreted, to provide or create 
+any third party beneficiary rights or any other rights of any kind in 
+third parties. All provisions hereof will be personal solely between You 
+and DigitalPersona. 
+
+11.2 Governing Law and Exclusive Forum. This EULA shall be governed by 
+and construed and enforced in accordance with the laws of the State of 
+California, United States of America, excluding its choice of law 
+provisions. With the exception of DigitalPersona's right to enforce its 
+intellectual property rights under this EULA, all disputes arising out 
+of this EULA shall be subject to the exclusive jurisdiction and venue of 
+the Superior Court of the State of California San Mateo County and the 
+Federal District Court of the Northern District of California, United 
+States of America, and the parties consent to the personal and exclusive 
+jurisdiction and venue of such courts. The United Nations Convention on 
+Contracts for the International Sales of Goods is specifically 
+disclaimed. 
+
+11.3 Compliance with Laws; Export Restrictions; Anti-Bribery. You will 
+comply with all applicable laws, rules, regulations, orders, and other 
+requirements of governmental agencies in your use of the Software 
+Product and in the development and distribution of the Licensee 
+Application that use or access any Software Products. Without limiting 
+the foregoing, You acknowledge and agree that the Software Product and 
+the Licensee Application are subject to United States export 
+restrictions, and that You will strictly comply with all applicable 
+United States and international laws relating to the importing and/or 
+exporting of licensed software, and You will not, directly or 
+indirectly, export or re-export the Software Product, the Licensee 
+Application and related technical data in violation of the Export 
+Administration Regulations of the U.S. Department of Commerce and other 
+applicable laws, including, but not limited to, the prohibition to 
+export: (a) to embargoed destinations or to any person or entity listed 
+as a denied party or other restriction by the U.S. Department of 
+Commerce; or (b) to any persons or entity supporting or engaged in 
+prohibited proliferation activities (e.g. weapons of mass destruction, 
+nuclear, chemical or biological weapons, missiles, sanctioned for 
+transfer of lethal military equipment, etc.). Current regulations, 
+embargoed destinations, and other prohibition lists are available on the 
+United States Department of Commerce Bureau of Industry and Security 
+website at http://www.bis.doc.gov. For more information on export 
+restrictions for DigitalPersona products, please contact DigitalPersona 
+Legal Department at DPLegal@DigitalPersona.com. 
+
+You hereby represent and warrant that You shall not: (a) act in any 
+fashion or take any action or permit or authorize any action which will 
+render DigitalPersona liable for a violation of the U.S. Foreign Corrupt 
+Practices Act, which prohibits the offering, giving or promising to 
+offer or give, directly or indirectly, money or anything of value to any 
+official of a government, political party or instrumentality thereof in 
+order to assist it or DigitalPersona in obtaining or retaining business; 
+(b) act in any fashion or take any action or permit or authorize any 
+action which will render DigitalPersona liable for a violation of the 
+"U.K. Bribery Act of 2010," which prohibits: (i) the offering, giving or 
+promising to offer or give, directly or indirectly, money or anything of 
+value or other advantage to another person with the intent to induce a 
+person to perform improperly a relevant function or activity; or reward 
+a person for the improper performance of a relevant function or 
+activity; (ii) requesting, agreeing to accept or accepting money or 
+anything of value or other advantage in return for the improper 
+performance of a relevant function or activity; or (iii) the influencing 
+of a foreign public official by the offering, giving or promising to 
+offer or give, directly or indirectly, money or anything of value or 
+other advantage to a foreign public official or to another person at a 
+foreign public official's request, assent or acquiescence in order to 
+obtain or retain business or an advantage in the conduct of business. 
+The "U.K. Bribery Act of 2010" applies both to bribery in the private 
+and public sector, directly or indirectly (i.e. through a third party), 
+improper facilitation payments, and to relevant functions or activities 
+performed outside the U.K.; or (c) violate or cause DigitalPersona to 
+violate such Acts in connection with the sale or distribution of 
+products and/or services; and if You are a non-governmental entity, You 
+will notify DigitalPersona in writing if any of its owners, partners, 
+principals, and officers are or become during the term of this Agreement 
+officials, officers or representatives of any government or political 
+party or candidate for political office outside the United States and 
+are responsible for a decision regarding obtaining or retaining business 
+for products by such government. 
+
+11.4 Government Rights. You acknowledge and agree that the Software 
+Product and all related materials thereto licensed under this EULA are 
+"Commercial Computer Software" and "Commercial Computer Software 
+Documentation" as defined in FAR 12.212 for civilian agencies and DFARS 
+227.7202 for military agencies and their successors, and in the event 
+You are permitted under this EULA to provide the Software Product, or a 
+portion thereof, to the U.S. Government, such Software Product shall be 
+provided under the terms of this EULA, or terms at least as restrictive 
+as the terms of this EULA. If You are permitted under this EULA to 
+provide the Software Product, or a portion thereof, to a non-U.S. 
+government entity, You shall take all necessary steps to ensure that 
+DigitalPersona's intellectual property and proprietary rights in and to 
+the Software Product receive the maximum protection available from such 
+non-U.S. government for commercial computer software and documentation. 
+
+11.5 Severability. If any provision of this EULA is declared 
+unenforceable, illegal or invalid by a competent tribunal under 
+applicable law, then such provision shall be deemed automatically 
+adjusted to conform to the requirements for validity and enforceability, 
+and so adjusted, shall be deemed a provision of this EULA as though 
+originally included herein. In the event that the abovementioned 
+provision is of such a nature that it cannot be so adjusted, such 
+provision shall be deleted from the EULA, and the remaining provisions 
+of the EULA shall remain in full force and effect. WITHOUT LIMITING THE 
+FOREGOING, IT IS EXPRESSLY UNDERSTOOD AND AGREED THAT EACH AND EVERY 
+PROVISION OF THIS EULA WHICH PROVIDES FOR A LIMITATION OF LIABILITY, 
+DISCLAIMER OF WARRANTY OR EXCLUSION OF DAMAGES IS INTENDED BY THE 
+PARTIES TO BE SEVERABLE AND INDEPENDENT OF ANY OTHER SUCH PROVISION. 
+FURTHER, IN THE EVENT THAT ANY REMEDY HEREUNDER IS DETERMINED TO HAVE 
+FAILED OF ITS ESSENTIAL PURPOSE, ALL LIMITATIONS OF LIABILITY AND 
+EXCLUSIONS OF DAMAGES SHALL REMAIN IN EFFECT. 
+
+11.6 No Agency. Nothing contained herein shall be construed as creating 
+any agency, partnership, franchise or other form of joint enterprise 
+between the parties. 
+
+11.7 No Waiver. The failure of either party to require performance by 
+the other party of any provision hereof shall not affect the full right 
+to require such performance at any time thereafter; nor shall the waiver 
+by either party of a breach of any provision hereof be taken or held to 
+be a waiver of the provision itself. 
+
+11.8 Notices. All notices or reports permitted or required under this 
+Agreement to DigitalPersona shall be in writing and shall be by personal 
+delivery, facsimile transmission, by certified or registered mail, 
+return receipt requested, or by internationally recognized courier (e.g. 
+FedEx), and shall be deemed given upon personal delivery, five (5) 
+calendar days after deposit in the mail (or ten (10) calendar days for 
+non-USA locations), or upon acknowledgment of receipt of electronic 
+transmission. Notices shall be sent to DigitalPersona, Inc. 720 Bay 
+Road, Redwood City, CA 94063 USA Attn: Legal Department . 11.9 Language. 
+This EULA is prepared and entered into in the English language only, 
+which language shall be controlling in all respects. Any translations of 
+this EULA into any other language are for reference only and shall have 
+no legal or other effect. 
+
+11.10 Entire Agreement. This EULA contains and constitutes the sole, 
+complete and entire agreement and understanding between You and 
+DigitalPersona concerning the matters contained herein and may not be 
+altered, modified or changed in any manner except with DigitalPersona's 
+prior written consent. No statements, promises or representations have 
+been made by one party to the other, and the parties are not relying on 
+any representations other than those expressly set forth herein. 
+
+SDK_EULA_elec130509 
+

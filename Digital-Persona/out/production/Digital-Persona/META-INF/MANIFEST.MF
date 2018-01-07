@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: UareUSampleJava
+Class-Path: /home/xps/Documents/api/
+
